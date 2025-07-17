@@ -4,5 +4,7 @@ function multiplicarArgumentos() {
   // [PISTA]: "arguments" es un arreglo.
   // Tu código:
 }
+  if (arguments.length === 0) return 0;
+return arguments
 
 module.exports = multiplicarArgumentos;

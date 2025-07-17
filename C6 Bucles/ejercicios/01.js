@@ -5,7 +5,7 @@ function esIgualYNegativo(a, b) {
   // Tu código:
   if( a === b && a < 0 && b < 0) {
       return true;
-   }else if(a === b && a < 0 && b < 0){
+   }else{
       return false;
    }
 }

@@ -4,7 +4,7 @@ function productoEntreNúmeros(a, b) {
   // Tu código:
   let total= 1
   for(let i=a; i <= b; i++) {
-    if (a === 0 || b === 0) {
+    if (i === 0 || b === 0) {
       return 0;
     }
     
